@@ -1,6 +1,6 @@
 import React,{useContext} from "react";
 import {Link} from "react-router-dom";
- import {CartContext} from "../Global/CartContext";
+import {CartContext} from "../Global/CartContext";
 const Navbar = () => {
     const {qty}=useContext(CartContext);
 

@@ -1,6 +1,5 @@
-
- import React, {useContext} from "react";
- import {CartContext} from "../Global/CartContext";
+import React, {useContext} from "react";
+import {CartContext} from "../Global/CartContext";
 import StripeCheckout from "react-stripe-checkout";
 
 const Cart =() =>{
